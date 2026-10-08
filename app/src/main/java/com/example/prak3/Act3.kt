@@ -1,4 +1,4 @@
-package com.example.prak3
+package com.example.pertemuan4
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -44,3 +44,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontSize = 20.sp
         )
         Spacer(modifier = Modifier.height(25.dp))
+        Card(
+            modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(12.dp),
