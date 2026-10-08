@@ -1,4 +1,4 @@
-package com.example.pertemuan4
+package com.example.prak3
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -53,3 +53,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         ) {
             Row {
+                val gambar = painterResource(R.drawable.logo_umy)
+                Image(
+                    painter = gambar,
+                    contentDescription = null,
+                    modifier = Modifier.size(100.dp).padding(5.dp)
+                )
